@@ -1,6 +1,8 @@
 # Protect Flask routes with AWS Cognito
 
-Demo: Part of this repo has been adapted as the authentication mechanism into CK Loh's project on Machine Learning model to classify pcap files as benign or malicious; please feel free to try it out at: https://www.checkpcap.com
+Demo: Part of this repo has been <b> adapted and integrated </b> as the authentication mechanism into CK Loh's project on Machine Learning model to classify pcap files as benign or malicious; please feel free to try it out at: https://www.checkpcap.com
+
+I chose this repo as it uses AWS Cognito, OAuth 2.1 which was the latest as of Aug 2023, and most importantly, it offers integration with a Python Flask backend on my website. The forked repo on the authentication mechanism is as below:
 
 [![PyPI](https://img.shields.io/pypi/v/flask_cognito_lib?style=for-the-badge)](https://pypi.org/project/flask-cognito-lib/)
 [![Docs](https://img.shields.io/github/actions/workflow/status/mblackgeo/flask-cognito-lib/docs.yml?label=DOCS&style=for-the-badge)](https://mblackgeo.github.io/flask-cognito-lib)
